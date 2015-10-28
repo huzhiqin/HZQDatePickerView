@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6325696D1BE069D500C132AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325696C1BE069D500C132AA /* main.m */; };
+		632569701BE069D500C132AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325696F1BE069D500C132AA /* AppDelegate.m */; };
+		632569731BE069D500C132AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632569721BE069D500C132AA /* ViewController.m */; };
+		632569761BE069D500C132AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632569741BE069D500C132AA /* Main.storyboard */; };
+		632569781BE069D500C132AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632569771BE069D500C132AA /* Assets.xcassets */; };
+		6325697B1BE069D500C132AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632569791BE069D500C132AA /* LaunchScreen.storyboard */; };
+		63BD482F1BE06A1D0067F5D5 /* HZQDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD482D1BE06A1D0067F5D5 /* HZQDatePickerView.m */; settings = {ASSET_TAGS = (); }; };
+		63BD48301BE06A1D0067F5D5 /* HZQDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BD482E1BE06A1D0067F5D5 /* HZQDatePickerView.xib */; settings = {ASSET_TAGS = (); }; };
+		63BD48331BE06A6C0067F5D5 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD48321BE06A6C0067F5D5 /* UIColor+HexString.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		632569681BE069D500C132AA /* HZQDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZQDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6325696C1BE069D500C132AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6325696E1BE069D500C132AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6325696F1BE069D500C132AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		632569711BE069D500C132AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		632569721BE069D500C132AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		632569751BE069D500C132AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		632569771BE069D500C132AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6325697A1BE069D500C132AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6325697C1BE069D500C132AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BD482C1BE06A1D0067F5D5 /* HZQDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HZQDatePickerView.h; sourceTree = "<group>"; };
+		63BD482D1BE06A1D0067F5D5 /* HZQDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZQDatePickerView.m; sourceTree = "<group>"; };
+		63BD482E1BE06A1D0067F5D5 /* HZQDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HZQDatePickerView.xib; sourceTree = "<group>"; };
+		63BD48311BE06A6C0067F5D5 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		63BD48321BE06A6C0067F5D5 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632569651BE069D500C132AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6325695F1BE069D500C132AA = {
+			isa = PBXGroup;
+			children = (
+				6325696A1BE069D500C132AA /* HZQDatePickerView */,
+				632569691BE069D500C132AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		632569691BE069D500C132AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632569681BE069D500C132AA /* HZQDatePickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6325696A1BE069D500C132AA /* HZQDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				63BD482B1BE06A1D0067F5D5 /* HZQDatePickerView */,
+				6325696E1BE069D500C132AA /* AppDelegate.h */,
+				6325696F1BE069D500C132AA /* AppDelegate.m */,
+				632569711BE069D500C132AA /* ViewController.h */,
+				632569721BE069D500C132AA /* ViewController.m */,
+				632569741BE069D500C132AA /* Main.storyboard */,
+				632569771BE069D500C132AA /* Assets.xcassets */,
+				632569791BE069D500C132AA /* LaunchScreen.storyboard */,
+				6325697C1BE069D500C132AA /* Info.plist */,
+				6325696B1BE069D500C132AA /* Supporting Files */,
+			);
+			path = HZQDatePickerView;
+			sourceTree = "<group>";
+		};
+		6325696B1BE069D500C132AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6325696C1BE069D500C132AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63BD482B1BE06A1D0067F5D5 /* HZQDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				63BD48311BE06A6C0067F5D5 /* UIColor+HexString.h */,
+				63BD48321BE06A6C0067F5D5 /* UIColor+HexString.m */,
+				63BD482C1BE06A1D0067F5D5 /* HZQDatePickerView.h */,
+				63BD482D1BE06A1D0067F5D5 /* HZQDatePickerView.m */,
+				63BD482E1BE06A1D0067F5D5 /* HZQDatePickerView.xib */,
+			);
+			path = HZQDatePickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632569671BE069D500C132AA /* HZQDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6325697F1BE069D500C132AA /* Build configuration list for PBXNativeTarget "HZQDatePickerView" */;
+			buildPhases = (
+				632569641BE069D500C132AA /* Sources */,
+				632569651BE069D500C132AA /* Frameworks */,
+				632569661BE069D500C132AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZQDatePickerView;
+			productName = HZQDatePickerView;
+			productReference = 632569681BE069D500C132AA /* HZQDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632569601BE069D500C132AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HZQ;
+				TargetAttributes = {
+					632569671BE069D500C132AA = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 632569631BE069D500C132AA /* Build configuration list for PBXProject "HZQDatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6325695F1BE069D500C132AA;
+			productRefGroup = 632569691BE069D500C132AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632569671BE069D500C132AA /* HZQDatePickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632569661BE069D500C132AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BD48301BE06A1D0067F5D5 /* HZQDatePickerView.xib in Resources */,
+				6325697B1BE069D500C132AA /* LaunchScreen.storyboard in Resources */,
+				632569781BE069D500C132AA /* Assets.xcassets in Resources */,
+				632569761BE069D500C132AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632569641BE069D500C132AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BD48331BE06A6C0067F5D5 /* UIColor+HexString.m in Sources */,
+				63BD482F1BE06A1D0067F5D5 /* HZQDatePickerView.m in Sources */,
+				632569731BE069D500C132AA /* ViewController.m in Sources */,
+				632569701BE069D500C132AA /* AppDelegate.m in Sources */,
+				6325696D1BE069D500C132AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		632569741BE069D500C132AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632569751BE069D500C132AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		632569791BE069D500C132AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6325697A1BE069D500C132AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6325697D1BE069D500C132AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6325697E1BE069D500C132AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		632569801BE069D500C132AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZQDatePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.aplus.com.HZQDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		632569811BE069D500C132AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZQDatePickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.aplus.com.HZQDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632569631BE069D500C132AA /* Build configuration list for PBXProject "HZQDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6325697D1BE069D500C132AA /* Debug */,
+				6325697E1BE069D500C132AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6325697F1BE069D500C132AA /* Build configuration list for PBXNativeTarget "HZQDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632569801BE069D500C132AA /* Debug */,
+				632569811BE069D500C132AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632569601BE069D500C132AA /* Project object */;
+}
