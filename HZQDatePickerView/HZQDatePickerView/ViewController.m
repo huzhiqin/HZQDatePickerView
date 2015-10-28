@@ -47,7 +47,7 @@
 
 - (void)setupDateView:(DateType)type {
     
-    _pikerView = [HZQDatePickerView instancePLTimeSelectView];
+    _pikerView = [HZQDatePickerView instanceDatePickerView];
     _pikerView.frame = CGRectMake(0, 0, ScreenRectWidth, ScreenRectHeight + 20);
     [_pikerView setBackgroundColor:[UIColor clearColor]];
     _pikerView.delegate = self;

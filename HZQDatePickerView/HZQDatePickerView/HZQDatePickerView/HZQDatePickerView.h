@@ -25,7 +25,7 @@ typedef enum{
 
 @interface HZQDatePickerView : UIView
 
-+ (HZQDatePickerView *)instancePLTimeSelectView;
++ (HZQDatePickerView *)instanceDatePickerView;
 
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePickerView;
 

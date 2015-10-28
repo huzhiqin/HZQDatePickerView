@@ -21,7 +21,7 @@
 
 @implementation HZQDatePickerView
 
-+ (HZQDatePickerView *)instancePLTimeSelectView
++ (HZQDatePickerView *)instanceDatePickerView
 {
     NSArray* nibView =  [[NSBundle mainBundle] loadNibNamed:@"HZQDatePickerView" owner:nil options:nil];
     return [nibView objectAtIndex:0];
