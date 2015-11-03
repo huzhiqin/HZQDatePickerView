@@ -13,9 +13,9 @@
 		632569761BE069D500C132AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632569741BE069D500C132AA /* Main.storyboard */; };
 		632569781BE069D500C132AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632569771BE069D500C132AA /* Assets.xcassets */; };
 		6325697B1BE069D500C132AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632569791BE069D500C132AA /* LaunchScreen.storyboard */; };
-		63BD482F1BE06A1D0067F5D5 /* HZQDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD482D1BE06A1D0067F5D5 /* HZQDatePickerView.m */; settings = {ASSET_TAGS = (); }; };
-		63BD48301BE06A1D0067F5D5 /* HZQDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BD482E1BE06A1D0067F5D5 /* HZQDatePickerView.xib */; settings = {ASSET_TAGS = (); }; };
-		63BD48331BE06A6C0067F5D5 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD48321BE06A6C0067F5D5 /* UIColor+HexString.m */; settings = {ASSET_TAGS = (); }; };
+		63BD482F1BE06A1D0067F5D5 /* HZQDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD482D1BE06A1D0067F5D5 /* HZQDatePickerView.m */; };
+		63BD48301BE06A1D0067F5D5 /* HZQDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BD482E1BE06A1D0067F5D5 /* HZQDatePickerView.xib */; };
+		63BD48331BE06A6C0067F5D5 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD48321BE06A6C0067F5D5 /* UIColor+HexString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

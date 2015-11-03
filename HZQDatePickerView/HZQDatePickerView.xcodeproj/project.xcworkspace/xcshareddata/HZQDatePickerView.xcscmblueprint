@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E5F1CE86C5772D1E695AC5E5B3C44E6DF796EBCE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E5F1CE86C5772D1E695AC5E5B3C44E6DF796EBCE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B7B747BE-339F-436F-96F2-4A211E204F46",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E5F1CE86C5772D1E695AC5E5B3C44E6DF796EBCE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HZQDatePickerView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HZQDatePickerView\/HZQDatePickerView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/huzhiqin\/HZQDatePickerView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5F1CE86C5772D1E695AC5E5B3C44E6DF796EBCE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/huzhiqin\/HZQDatePickerView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5F1CE86C5772D1E695AC5E5B3C44E6DF796EBCE"
+    }
+  ]
+}
