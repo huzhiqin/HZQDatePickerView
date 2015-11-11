@@ -2,7 +2,7 @@
 HZQDatePickerView(自定义时间选择器，包括开始日期和结束日期两种类型)
 
 // 效果图地址
-http://code.cocoachina.com/detail/329398/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%97%B6%E9%97%B4%E9%80%89%E6%8B%A9%E5%99%A8DatePicker/
+http://code.cocoachina.com/view/128153
 
 
 使用方法：
@@ -34,4 +34,5 @@ http://code.cocoachina.com/detail/329398/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%97%B6%E9
 
 }
 
-// PS：模拟器如果没显示月份的话，请真机测试。真机是没问题的哈。有任何问题请留言。
+// PS：已经修复小屏幕未显示月份的bug。谢谢大家的支持和反馈，如有任何问题请留言。
+// QQ:276635035
