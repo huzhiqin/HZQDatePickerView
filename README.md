@@ -2,8 +2,7 @@
 HZQDatePickerView(自定义时间选择器，包括开始日期和结束日期两种类型)
 
 // 效果图地址
-http://code.cocoachina.com/view/128153
-
+http://www.cocoachina.com/bbs/read.php?tid-329398.html
 
 使用方法：
 
