@@ -8,6 +8,10 @@
 
 #import "HZQDatePickerView.h"
 #import "UIColor+HexString.h"
+//屏幕的宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+//屏幕的高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
 
 @interface HZQDatePickerView ()
 
@@ -16,6 +20,8 @@
 @property (weak, nonatomic) IBOutlet UIButton *cannelBtn;
 @property (weak, nonatomic) IBOutlet UIButton *sureBtn;
 @property (weak, nonatomic) IBOutlet UIView *backgVIew;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *rightPadding;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leftPadding;
 
 @end
 
@@ -31,20 +37,32 @@
 {
     self.backgVIew.layer.cornerRadius = 5;
     self.backgVIew.layer.borderWidth = 1;
-    self.backgVIew.layer.borderColor = [[UIColor whiteColor]CGColor];
+    self.backgVIew.layer.borderColor = [[UIColor clearColor] CGColor];
     self.backgVIew.layer.masksToBounds = YES;
     
     /** 确定 */
-    self.sureBtn.layer.cornerRadius = 3;
+    self.sureBtn.layer.cornerRadius = 4;
     self.sureBtn.layer.borderWidth = 1;
-    self.sureBtn.layer.borderColor = [[UIColor colorwithHexString:@"5AC33B"] CGColor];
+    [self.sureBtn setTitleColor:[UIColor colorwithHexString:@"37C3A9"] forState:0];
+    self.sureBtn.layer.borderColor = [[UIColor colorwithHexString:@"37C3A9"] CGColor];
     self.sureBtn.layer.masksToBounds = YES;
     
     /** 取消按钮 */
-    self.cannelBtn.layer.cornerRadius = 3;
+    self.cannelBtn.layer.cornerRadius = 4;
     self.cannelBtn.layer.borderWidth = 1;
     self.cannelBtn.layer.borderColor = [[UIColor colorwithHexString:@"BAB9B9"] CGColor];
     self.cannelBtn.layer.masksToBounds = YES;
+    
+    if (ScreenWidth > 320) {
+        // IPHONE 6
+        self.leftPadding.constant += 20;
+        self.rightPadding.constant += 20;
+        if (ScreenWidth > 400) {
+            // IPHONE 6 PLUS
+            self.leftPadding.constant += 20;
+            self.rightPadding.constant += 20;
+        }
+    }
 }
 
 - (NSString *)timeFormat
@@ -73,13 +91,19 @@
     
     // 添加动画
     [view.layer addAnimation:animation forKey:@"scale-layer"];
-
+    
 }
 
+// 退出键盘
+- (IBAction)blackBtnClick:(id)sender {
+    [self.superview endEditing:YES];
+}
+
+// 取消
 - (IBAction)removeBtnClick:(id)sender {
     // 开始动画
     [self animationbegin:sender];
-
+    
     [UIView animateWithDuration:0.3 animations:^{
         self.alpha = 0;
     } completion:^(BOOL finished) {
@@ -87,6 +111,7 @@
     }];
 }
 
+// 确定
 - (IBAction)sureBtnClick:(id)sender {
     // 开始动画
     [self animationbegin:sender];
@@ -101,3 +126,5 @@
 }
 
 @end
+
+

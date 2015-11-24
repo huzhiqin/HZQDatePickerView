@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef enum{
+typedef enum {
     
     // 开始日期
     DateTypeOfStart = 0,
