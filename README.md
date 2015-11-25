@@ -28,9 +28,11 @@ http://www.cocoachina.com/bbs/read.php?tid-329398.html
     _pikerView.type = type;
     
     // 今天起之后的日期
+    
     [_pikerView.datePickerView setMinimumDate:[NSDate date]];
     
     // 今天之前的日期
+    
 //    [_pikerView.datePickerView setMaximumDate:[NSDate date]];
     
     [self.view addSubview:_pikerView];
@@ -43,6 +45,6 @@ http://www.cocoachina.com/bbs/read.php?tid-329398.html
 
 }
 
-// PS：已经修复小屏幕未显示月份的bug。谢谢大家的支持和反馈，如有任何问题请留言。
+// PS：已完美适配所有设备，修复部分小细节。谢谢大家的支持和反馈，如有任何问题请留言。
 
 // QQ:276635035
