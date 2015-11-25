@@ -18,11 +18,21 @@ http://www.cocoachina.com/bbs/read.php?tid-329398.html
 - (void)setupDateView:(DateType)type {
 
     _pikerView = [HZQDatePickerView instanceDatePickerView];
+    
     _pikerView.frame = CGRectMake(0, 0, ScreenRectWidth, ScreenRectHeight + 20);
+    
     [_pikerView setBackgroundColor:[UIColor clearColor]];
+    
     _pikerView.delegate = self;
+    
     _pikerView.type = type;
+    
+    // 今天起之后的日期
     [_pikerView.datePickerView setMinimumDate:[NSDate date]];
+    
+    // 今天之前的日期
+//    [_pikerView.datePickerView setMaximumDate:[NSDate date]];
+    
     [self.view addSubview:_pikerView];
 
 }
