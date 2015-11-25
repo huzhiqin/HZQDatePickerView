@@ -5,7 +5,7 @@ HZQDatePickerView(自定义时间选择器，包括开始日期和结束日期�
 http://www.cocoachina.com/bbs/read.php?tid-329398.html
 
 使用方法：
-   
+```oc 
 // 开始时间
 
 [self setupDateView:DateTypeOfStart];
@@ -43,6 +43,7 @@ http://www.cocoachina.com/bbs/read.php?tid-329398.html
     NSLog(@"%d - %@", type, date);
 
 }
+```
 
 // PS：已完美适配所有设备，修复部分小细节。谢谢大家的支持和反馈，如有任何问题请留言。
 
