@@ -5,8 +5,7 @@ HZQDatePickerView(自定义时间选择器，包括开始日期和结束日期�
 http://www.cocoachina.com/bbs/read.php?tid-329398.html
 
 使用方法：
-
-
+   
 // 开始时间
 
 [self setupDateView:DateTypeOfStart];
