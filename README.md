@@ -7,8 +7,8 @@ HZQDatePickerView(自定义时间选择器，包括开始日期和结束日期�
 
 ` QQ:276635035`
 
-// 效果图地址
-http://www.cocoachina.com/bbs/read.php?tid-329398.html
+// 效果图
+![](https://github.com/HZQDatePickerView/HZQDatePickerView/ImageCache/screenshot.gif
 
 使用方法：
 ```oc 
