@@ -9,7 +9,7 @@ HZQDatePickerView(自定义时间选择器，包括开始日期和结束日期�
 
 // 效果图
 
-![](https://github.com/HZQDatePickerView/HZQDatePickerView/ImageCache/screenshot.gif
+![](https://github.com/HZQDatePickerView/ImageCache/screenshot.gif
 
 使用方法：
 ```oc 
