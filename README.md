@@ -13,6 +13,7 @@ HZQDatePickerView(自定义时间选择器，包括开始日期和结束日期�
 
 使用方法：
 ```oc 
+注：要设置只显示年月日或年月日、时分秒的可在XIB里对datePicker的Mode进行设置。
 // 开始时间
 
 [self setupDateView:DateTypeOfStart];
